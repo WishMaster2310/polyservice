@@ -4,16 +4,19 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-var Twig = require('twig');
-var twig = Twig.twig;
 var routes = require('./routes/index');
+var nunjucks = require('nunjucks');
 //var users = require('./routes/users');
 
 var app = express();
+nunjucks.configure('views', {
+    autoescape: true,
+    express: app
+});
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'twig');
+app.set('view engine', 'html');
 
 // uncomment after placing your favicon in /public
 //app.use(favicon(path.join(__dirname, 'public', 'favicon.ico')));

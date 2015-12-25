@@ -1,0 +1,17 @@
+<section class="services-section">
+	<div class="container">
+		<ul class="services">
+			{% for item in base.services %}
+				<li class="services__item">
+					<div class="services__placeholder">
+						<img src="{{ item.img }}" class="services__img" alt="{{ item.title }}">
+					</div>
+					<div class="services__data">
+						<a href="{{ item.target }}" class="services__link" >{{ item.title }}</a>
+						<div class="services__caption">{{ item.caption|safe }}</div>
+					</div>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

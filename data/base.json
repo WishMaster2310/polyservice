@@ -1,0 +1,56 @@
+{
+	"title": "Hunter - Разработка Информационной Системы для ООО “ПС”",
+	"description": "Разработка Информационной Системы для ООО “ПС”",
+	"menu": [
+		{
+			"caption": "Почему мы",
+			"href": "#advantages"
+		},
+		{
+			"caption": "Сферы приминения",
+			"href": "#scope"
+		},
+		{
+			"caption": "Бренды",
+			"href": "#brends"
+		},
+		{
+			"caption": "Работы",
+			"href": "#works"
+		},
+		{
+			"caption": "Клиенты",
+			"href": "#clients"
+		},
+		{
+			"caption": "Контакты",
+			"href": "#contacts"
+		}
+	],
+	"services": [
+		{
+			"img": "../images/service_1.jpg",
+			"title": "Продажа",
+			"target": "#",
+			"caption": "Оборудование от&nbsp;лидеров рынка&nbsp;&mdash; компаний Hunter и&nbsp;Irritec"
+		},
+		{
+			"img": "../images/service_2.jpg",
+			"title": "Проектирование",
+			"target": "#",
+			"caption": "Всегда создаём полный пакет проектной документации"
+		},
+		{
+			"img": "../images/service_3.jpg",
+			"title": "Монтаж",
+			"target": "#",
+			"caption": "Шефмонтаж и&nbsp;монтаж &laquo;под ключ&raquo;"
+		},
+		{
+			"img": "../images/service_4.jpg",
+			"title": "Обслуживание",
+			"target": "#",
+			"caption": "Помогаем на&nbsp;выгодных для вас условиях"
+		}
+	]
+}
