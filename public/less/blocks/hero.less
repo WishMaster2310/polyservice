@@ -1,0 +1,35 @@
+.hero {
+	background: #24553c url(../images/hero.jpg) no-repeat center bottom;
+	background-size: cover;
+	margin-bottom: -3%;
+	
+	&__content {
+		padding-top: 10%;
+		padding-bottom: 12%;
+		color: #fff;
+		text-align: center;
+	}
+
+	&__title {
+		font-size: 2.25em;
+		padding-bottom: 5px;
+		position: relative;
+		margin-bottom: 10px;
+
+		&:before  {
+			position: absolute;
+			width: 62%;
+			content: "";
+			height: 2px;
+			background: url(../images/dotter.png) repeat-x left top;
+			margin: 0px auto;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+	}
+
+	&__text {
+		font-size: 1.5em;
+	}
+}

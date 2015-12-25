@@ -1,0 +1,124 @@
+.header {
+	background-color: #fff;
+
+	&-contacts {
+		display: inline-table;
+		width: 460px;
+		margin: 6px 0;
+
+		&__col {
+			display: table-cell;
+			vertical-align: middle;
+
+
+			&--left {
+				width: 260px;
+				text-align: left;
+				padding: 23px 0 23px 10px;
+				border-right: 1px dotted #a6a6a6;
+			}
+		}
+	}
+
+
+	&-phone {
+		font-weight: 300;
+
+
+		&__label {
+			font-size: 14px;
+		}
+
+		&__tel {
+			font-size: 1.5em;
+			text-decoration: none;
+			color: inherit;
+			line-height: 1;
+		}
+	}
+
+	&-navline {
+		background-color: #266a8d;
+	}
+
+	&-menu {
+		margin: 0;
+		padding: 0;
+		display: table;
+		table-layout: auto;
+		width: 100%;
+
+		&__item {
+			display: table-cell;
+			vertical-align: middle;
+			//margin-right: -.25em;
+			text-align: center;
+			font-size: 14px;
+			width: 1%;
+			font-weight: 300;
+			text-transform: uppercase;
+
+			
+		}
+		&__item:first-child &__link  {
+			&:before {
+				display: none;
+			}
+			
+		}
+
+		&__link {
+			display: inline-block;
+			position: relative;
+			padding: 20px 20px;
+			width: 100%;
+			text-decoration: none;
+			color: #fff;
+			transition: all .3s ease-in-out;
+
+			&:before {
+				width: 1px;
+				height: 16px;
+				background-color: #248fb3;
+				position: absolute;
+				left: 0;
+				top: 50%;
+				margin-top: -8px;
+				content: "";
+				transition: all .3s ease-in-out;
+			}
+
+			&:hover  {
+				background: darken(#266a8d, 10%);
+
+				&:before  {
+					background-color: transparent;
+				}
+			}
+
+			&:active  {
+				background-color: darken(#266a8d, 15%);
+			}
+		}
+	}
+}
+
+.logobox {
+	margin: 30px 0;
+	&__text {
+		display: inline-block;
+		vertical-align: middle;
+		max-width: 208px;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 1;
+		margin-left: 10px;
+	}
+
+	&__img {
+		width: 124px;
+		vertical-align: middle;
+		margin-top: -5px;
+		display: inline-block;
+	}
+}
