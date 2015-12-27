@@ -1,0 +1,32 @@
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	border: 0;
+	outline: 0;
+	background-color: @green;
+	text-align: center;
+	padding: 9px 20px 11px 20px; 
+	border-radius: 20px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: 400;
+	transition: all .3s ease-in;
+	cursor: pointer;
+
+	&:hover  {
+		background-color: darken(@green, 10%);
+	}
+
+	&:active {
+		background-color: darken(@green, 15%);
+		transform: translateY(2px);
+	}
+
+	&--block {
+		display: block;
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,25 @@
+<div class="container">
+	<div class="section-header">
+		<h1 class="h1 text-center">Сферы применения</h1>
+	</div>
+</div>
+<section class="scopes-section">
+	<div class="container">
+		<ul class="scopes">
+			{% for item in base.scopes %}
+				<li class="scopes__item">
+					<div class="scopes__placeholder">
+						<img src="{{ item.img }}" class="scopes__img" alt="{{ item.name }}" />
+					</div>
+					<div class="scopes__data">
+						<div class="scopes__name" >{{ item.name }}</div>
+						<div class="scopes__caption">{{ item.caption|safe }}</div>
+						<div class="scopes__control">
+							<a class="btn scopes__btn" href="{{ item.target }}">Подробнее</a>
+						</div>
+					</div>
+				</li><!-- /item -->
+			{% endfor %}
+		</ul><!-- /list -->
+	</div>
+</section>

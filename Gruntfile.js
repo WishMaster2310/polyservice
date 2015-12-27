@@ -13,11 +13,21 @@ module.exports = function(grunt) {
 			dist: {
 				src: 'public/css/style.css'
 			}
-		}
+		},
+		sprite: {
+	      main: {
+	        src: 'public/__icons/*',
+	        dest: 'public/images/sprite.png',
+	        destCss: 'public/less/blocks/sprite.less',
+	        cssTemplate: 'sprite.template.hbs.css',
+	        padding: 10
+	      }
+	    }
 	});
 
 	grunt.loadNpmTasks('grunt-postcss');
+	grunt.loadNpmTasks('grunt-spritesmith');
 
-	grunt.registerTask('default', ['postcss']);
+	grunt.registerTask('default', ['sprite', 'postcss']);
 
 };

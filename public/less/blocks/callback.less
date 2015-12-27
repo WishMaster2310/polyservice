@@ -1,4 +1,116 @@
 .callback {
 	background: #264850 url(../images/callback.jpg) no-repeat center center;
 	background-size: cover;
+	padding-top: 16px;
+	position: relative;
+	z-index: 1;
+
+
+	&__inner {
+		display: table;
+		width: 100%;
+	}
+
+	&__text {
+		color: #fff;
+		font-size: 1.25em;
+		line-height: 1.5;
+		padding-right: 20px;
+		margin-bottom: 10px;
+	}
+
+	&__col {
+		display: table-cell;
+		vertical-align: middle;
+
+
+		&--form {
+			width: 40%;
+		}
+	}
+
+	&-form {
+		background-color: #fff;
+		margin-bottom: -45px;
+		padding-top: 37px;
+	
+		&__footer {
+			background-color: #34495e;
+			padding: 0 8%;
+			height: 45px;
+			text-align: center;
+
+
+		}
+
+		&__row {
+			padding: 0 8%;
+			margin-bottom: 20px;
+		}
+
+		&__control {
+			width: 100%;
+			height: 42px;
+			border: 1px solid #e5e7ea;
+			outline: none;
+			background-color: #e5e7ea;
+			padding: 0 15px;
+			color: #34495e;
+
+
+			&:focus {
+				border-color: darken(#e5e7ea, 20%);
+			}
+
+
+			&::-webkit-input-placeholder {color:#34495e;}
+			&::-moz-placeholder          {color:#34495e;}/* Firefox 19+ */
+			&:-moz-placeholder           {color:#34495e;}/* Firefox 18- */
+			&:-ms-input-placeholder      {color:#34495e;}
+		}
+
+		&__btn {
+			width: 80%
+		}
+
+		&__policy {
+			color: #fff;
+			text-decoration: none;
+			font-size: 12px;
+			border-bottom: 1px dashed transparent;
+			margin-top: 13px;
+			display: inline-block;
+
+			&:hover  {
+				border-bottom-color: #fff;
+			}
+		}
+	}
+
+	@media (max-width: @screen-xs-max) {
+		&__inner {
+			display: block;
+		}
+
+		&__col {
+			display: block;
+			vertical-align: middle;
+
+
+			&--form {
+				width: 100%;
+			}
+		}
+
+		&__text {
+			margin-bottom: 30px;
+			margin-top: 30px;
+			text-align: center;
+			font-size: 1em;
+		}
+
+		&-form {
+			margin-bottom: 0;
+		}
+	}
 }

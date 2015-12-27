@@ -1,0 +1,19 @@
+<section class="advantages-section">
+	<div class="container">
+		<h1 class="h1 text-center">Почему нужно выбрать нас?</h1>
+		<ul class="advantages">
+			{% for item in base.advantages %}
+				<li class="advantages__item">
+					<div class="advantages__placeholder">
+						<img src="{{ item.img }}" class="advantages__img" alt="{{ item.title }}" />
+						<span class="advantages__arrow"></span>
+					</div>
+					<div class="advantages__data">
+						<div class="advantages__link">{{ item.title }}</div>
+						<div class="advantages__caption">{{ item.caption|safe }}</div>
+					</div>
+				</li><!-- /item -->
+			{% endfor %}
+		</ul><!-- /list -->
+	</div>
+</section>

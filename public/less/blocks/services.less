@@ -44,7 +44,7 @@
 		text-align: center;
 		transition: all .3s ease-in-out;
 		background-color: #e7ecf0;
-		color: #34495e;
+		color: @blue;
 	}
 
 	&__link {
@@ -54,7 +54,7 @@
 		font-size: 1.125em;
 		font-weight: 600;
 		display: block;
-		border-bottom: 1px dashed #34495e;
+		border-bottom: 1px dashed @blue;
 		text-decoration: none;
 		color: inherit;
 	}
@@ -63,5 +63,27 @@
 		font-size: 14px;
 		line-height: 18px;
 	}
+
+  	@media (max-width: @screen-md-min) and (min-width: @screen-sm-min) {
+
+    	&__item {
+			width: 48.5%;
+			margin-bottom: 30px;
+		}
+  	}
+
+  	@media (max-width: @screen-xs-max) {
+
+  		margin-left: 0;
+  		text-align: center;
+
+		&__item {
+			max-width: 480px;
+			width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+			margin-bottom: 30px;
+		}
+  	}
 
 }

@@ -1,0 +1,136 @@
+.scopes {
+	list-style-type: none;
+	margin: 0 0 0 -1.5%;
+	padding: 0;
+
+	&__item {
+		display: inline-block;
+		position: relative;
+		vertical-align: top;
+		width: 23.5%;
+		overflow: hidden;
+		margin: 0 -.25em 0 1.5%;
+	}
+
+	&__placeholder {
+		position: relative;
+		height: 325px;
+	}
+
+	&-section {
+		background: url(../images/scopes.jpg) no-repeat center top;
+		background-size: cover;
+	}
+
+	&__img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		min-width: 100%;
+		min-height: 100%;
+		margin: auto;	
+	}
+
+	&__data {
+		position: absolute;
+		z-index: 1;
+		transition: all .3s ease-in;
+	}
+
+	&__item:hover &__data {
+		transform: translateY(-200px);
+	}
+
+	&__item:hover &__name:before {
+		top: -200px;
+	}
+
+	&__item:hover &__caption,
+	&__item:hover &__control {
+		transform: translateY(0);
+	}
+
+
+	&__name {
+		position: absolute;
+		transition: all .35s ease-in;
+		z-index: 1;
+		bottom: 100%;
+		padding: 20px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		color: #fff;
+		font-weight: 600;
+
+		&:before {
+			content: "";
+			position: absolute;
+			top: 0px;
+			left: 0;
+			right: 0;
+			height: 900px;
+			background-color: fade(@blue, 70%);
+			transition: all .2s ease-in;
+			z-index :-1;
+		}
+
+	}
+
+	&__caption {
+		position: relative;
+		z-index :1;
+		color: #fff;
+		font-size: 17px;
+		padding: 0px 5px;
+		text-align: center;
+		height: 110px;
+		overflow: hidden;
+		margin-bottom: 10px;
+		transition: all .38s linear;
+		transform: translateY(50px);
+	}
+
+	&__control {
+		position: relative;
+		z-index :1;
+		transform: translateY(100px);
+		transition: all .43s linear;
+		text-align: center;
+	}
+
+	&__btn {
+		width: 80%;
+		font-size: 17px;
+	}
+
+	@media (max-width: @screen-md-min) and (min-width: @screen-sm-min) {
+
+    	&__item {
+			width: 48.5%;
+			margin-bottom: 30px;
+		}
+  	}
+
+  	@media (max-width: @screen-xs-max) {
+
+  		margin-left: -10px;
+  		margin-right: -10px;
+  		text-align: center;
+
+		&__item {
+			max-width: 480px;
+			width: 100%;
+			margin-left: 0;
+			margin-right: 0;
+			margin-bottom: 30px;
+		}
+
+		&__item:last-child {
+			margin-bottom: 0;
+		}
+
+  	}
+}
