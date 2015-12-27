@@ -6,18 +6,18 @@
 			</div>
 			<div class="callback__col callback__col--form">
 				<div class="callback-form__wrapper wow fadeInUp">
-					<form class="callback-form" action="#" method="POST">
+					<form class="callback-form j-form" method="GET" action="/">
 						<div class="callback-form__row">
-							<input type="tel" class="callback-form__control" placeholder="Ваш телефон:" name="cbTel">
+							<input type="tel" class="callback-form__control j-tel" placeholder="Ваш телефон:" name="cbTel" required>
 						</div>
 						<div class="callback-form__row">
-							<input type="tel" class="callback-form__control" placeholder="Ваше имя:" name="cbName">
+							<input type="tel" class="callback-form__control" placeholder="Ваше имя:" name="cbName" required>
 						</div>
 						<div class="callback-form__row text-center">
 							<button type="submit" class="btn callback-form__btn">Заказать звонок</button>
 						</div>
 						<div class="callback-form__footer">
-							<a href="#policyModal" class="callback-form__policy j-modal">Политика конфедициальности</a>
+							<a href="#policyModal" data-target="#policyModal" class="callback-form__policy j-modal">Политика конфедициальности</a>
 						</div>
 					</form>
 				</div>

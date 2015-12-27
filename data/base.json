@@ -29,25 +29,25 @@
 	],
 	"services": [
 		{
-			"img": "../images/service_1.jpg",
+			"img": "images/service_1.jpg",
 			"title": "Продажа",
 			"target": "#",
 			"caption": "Оборудование от&nbsp;лидеров рынка&nbsp;&mdash; компаний Hunter и&nbsp;Irritec"
 		},
 		{
-			"img": "../images/service_2.jpg",
+			"img": "images/service_2.jpg",
 			"title": "Проектирование",
 			"target": "#",
 			"caption": "Всегда создаём полный пакет проектной документации"
 		},
 		{
-			"img": "../images/service_3.jpg",
+			"img": "images/service_3.jpg",
 			"title": "Монтаж",
 			"target": "#",
 			"caption": "Шефмонтаж и&nbsp;монтаж <br /> &laquo;под&nbsp;ключ&raquo;"
 		},
 		{
-			"img": "../images/service_4.jpg",
+			"img": "images/service_4.jpg",
 			"title": "Обслуживание",
 			"target": "#",
 			"caption": "Помогаем на&nbsp;выгодных для вас условиях"
@@ -55,25 +55,25 @@
 	],
 	"advantages": [
 		{
-			"img": "../images/advantages_1.png",
+			"img": "images/advantages_1.png",
 			"title": "Индивидуальный подход",
 			"target": "#",
 			"caption": "Пресс-клиппинг, не&nbsp;меняя концепции, изложенной выше, искажает инвестиционный продукт."
 		},
 		{
-			"img": "../images/advantages_2.png",
+			"img": "images/advantages_2.png",
 			"title": "Собственный склад",
 			"target": "#",
 			"caption": "Пресс-клиппинг, не&nbsp;меняя концепции, изложенной выше, искажает инвестиционный продукт."
 		},
 		{
-			"img": "../images/advantages_3.png",
+			"img": "images/advantages_3.png",
 			"title": "Команда специалистов",
 			"target": "#",
 			"caption": "Пресс-клиппинг, не&nbsp;меняя концепции, изложенной выше, искажает инвестиционный продукт."
 		},
 		{
-			"img": "../images/advantages_4.png",
+			"img": "images/advantages_4.png",
 			"title": "Дилерская программа",
 			"target": "#",
 			"caption": "Пресс-клиппинг, не&nbsp;меняя концепции, изложенной выше, искажает инвестиционный продукт."
@@ -81,25 +81,25 @@
 	],
 	"scopes": [
 		{
-			"img": "../images/scopes_1.jpg",
+			"img": "images/scopes_1.jpg",
 			"name": "Название сферы",
 			"caption": "Пресс-клиппинг, не&nbsp;меняя концепции, изложенной выше, искажает инвестиционный продукт.",
 			"target": "#"
 		},
 		{
-			"img": "../images/scopes_2.jpg",
+			"img": "images/scopes_2.jpg",
 			"name": "Название сферы",
 			"caption": "Пресс-клиппинг, не&nbsp;меняя концепции, изложенной выше, искажает инвестиционный продукт.",
 			"target": "#"
 		},
 		{
-			"img": "../images/scopes_3.jpg",
+			"img": "images/scopes_3.jpg",
 			"name": "Название сферы",
 			"caption": "Пресс-клиппинг, не&nbsp;меняя концепции, изложенной выше, искажает инвестиционный продукт.",
 			"target": "#"
 		},
 		{
-			"img": "../images/scopes_4.jpg",
+			"img": "images/scopes_4.jpg",
 			"name": "Название сферы",
 			"caption": "Пресс-клиппинг, не&nbsp;меняя концепции, изложенной выше, искажает инвестиционный продукт.",
 			"target": "#"
@@ -107,51 +107,51 @@
 	],
 	"brands": [
 		{
-			"img": "../images/brands_1.jpg"
+			"img": "images/brands_1.jpg"
 		},
 		{
-			"img": "../images/brands_2.jpg"
+			"img": "images/brands_2.jpg"
 		},
 		{
-			"img": "../images/brands_3.jpg"
+			"img": "images/brands_3.jpg"
 		},
 		{
-			"img": "../images/brands_4.jpg"
+			"img": "images/brands_4.jpg"
 		},
 		{
-			"img": "../images/brands_5.jpg"
+			"img": "images/brands_5.jpg"
 		},
 		{
-			"img": "../images/brands_6.jpg"
+			"img": "images/brands_6.jpg"
 		}	
 	],
 	"works": [
 		{
-			"img": "../images/works_1.jpg",
+			"img": "images/works_1.jpg",
 			"name": "Название работы",
 			"caption": "Клиентский спрос, отбрасывая подробности, развивает социометрический пресс-клиппинг.",
 			"mod": "works__item--tall"
 		},
 		{
-			"img": "../images/works_2.jpg",
+			"img": "images/works_2.jpg",
 			"name": "Название работы",
 			"caption": "Клиентский спрос, отбрасывая подробности, развивает социометрический пресс-клиппинг.",
 			"mod": ""
 		},
 		{
-			"img": "../images/works_3.jpg",
+			"img": "images/works_3.jpg",
 			"name": "Название работы",
 			"caption": "Клиентский спрос, отбрасывая подробности, развивает социометрический пресс-клиппинг.",
 			"mod": ""
 		},
 		{
-			"img": "../images/works_4.jpg",
+			"img": "images/works_4.jpg",
 			"name": "Название работы",
 			"caption": "Клиентский спрос, отбрасывая подробности, развивает социометрический пресс-клиппинг.",
 			"mod": ""
 		},
 		{
-			"img": "../images/works_5.jpg",
+			"img": "images/works_5.jpg",
 			"name": "Название работы",
 			"caption": "Клиентский спрос, отбрасывая подробности, развивает социометрический пресс-клиппинг.",
 			"mod": ""
@@ -159,62 +159,62 @@
 	],
 	"clients": [
 		{
-			"img": "../images/clients_1.png",
-			"inverse": "../images/clients_1_w.png",
+			"img": "images/clients_1.png",
+			"inverse": "images/clients_1_w.png",
 			"name": "Название компании",
 			"href": "#"
 		},
 		{
-			"img": "../images/clients_2.png",
-			"inverse": "../images/clients_2_w.png",
+			"img": "images/clients_2.png",
+			"inverse": "images/clients_2_w.png",
 			"name": "Название компании",
 			"href": "#"
 		},
 		{
-			"img": "../images/clients_3.png",
-			"inverse": "../images/clients_3_w.png",
+			"img": "images/clients_3.png",
+			"inverse": "images/clients_3_w.png",
 			"name": "Название компании",
 			"href": "#"
 		},
 		{
-			"img": "../images/clients_4.png",
-			"inverse": "../images/clients_4_w.png",
+			"img": "images/clients_4.png",
+			"inverse": "images/clients_4_w.png",
 			"name": "Название компании",
 			"href": "#"
 		},
 		{
-			"img": "../images/clients_2.png",
-			"inverse": "../images/clients_2_w.png",
+			"img": "images/clients_2.png",
+			"inverse": "images/clients_2_w.png",
 			"name": "Название компании",
 			"href": "#"
 		},
 		{
-			"img": "../images/clients_1.png",
-			"inverse": "../images/clients_1_w.png",
+			"img": "images/clients_1.png",
+			"inverse": "images/clients_1_w.png",
 			"name": "Название компании",
 			"href": "#"
 		},
 		{
-			"img": "../images/clients_2.png",
-			"inverse": "../images/clients_2_w.png",
+			"img": "images/clients_2.png",
+			"inverse": "images/clients_2_w.png",
 			"name": "Название компании",
 			"href": "#"
 		},
 		{
-			"img": "../images/clients_3.png",
-			"inverse": "../images/clients_3_w.png",
+			"img": "images/clients_3.png",
+			"inverse": "images/clients_3_w.png",
 			"name": "Название компании",
 			"href": "#"
 		},
 		{
-			"img": "../images/clients_4.png",
-			"inverse": "../images/clients_4_w.png",
+			"img": "images/clients_4.png",
+			"inverse": "images/clients_4_w.png",
 			"name": "Название компании",
 			"href": "#"
 		},
 		{
-			"img": "../images/clients_2.png",
-			"inverse": "../images/clients_2_w.png",
+			"img": "images/clients_2.png",
+			"inverse": "images/clients_2_w.png",
 			"name": "Название компании",
 			"href": "#"
 		}

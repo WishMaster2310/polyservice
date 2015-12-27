@@ -78,6 +78,17 @@
 		text-align: left;
 		display: inline-block;
 		padding-left: 50px;
+		position: relative;
+
+		&:before {
+			content: "";
+			.sprite-icon();
+			.sprite-icon-call();
+			position: absolute;
+			left: 4px;
+			top: 50%;
+			margin-top: -12px;
+		}
 
 		&__label {
 			font-size: 14px;
@@ -88,6 +99,8 @@
 			text-decoration: none;
 			color: inherit;
 			line-height: 1;
+
+
 
 		}
 	}

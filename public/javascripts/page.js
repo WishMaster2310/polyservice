@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	// init mosaiflow
-	// docs here --> [https://github.com/sapegin/jquery.mosaicflow/blob/master/Readme.md]
+	// Доки здесь --> [https://github.com/sapegin/jquery.mosaicflow/blob/master/Readme.md]
 	$('.works').mosaicflow({
 	    itemSelector: '.works__item',
 	    minItemWidth: 300,
@@ -53,7 +53,42 @@ $(document).ready(function() {
         }, 450)
     });
 
-    $('body').scrollspy({ target: '#navigation', offset: 350 })
+    $('body').scrollspy({ target: '#navigation', offset: 350 });
+
+    // Биндим модал
+    $('.j-modal').on('click', function(e) {
+        e.preventDefault();
+        var target = $(this).data('target');
+        $(target).arcticmodal();
+    });
+
+    $('.modal__close').on('click', function() {
+        $.arcticmodal('close');
+    });
+
+    // Аттачим маску для телефона
+    $('.j-tel').each(function() {
+        $(this).mask('+7 999 999-99-99')
+    });
+
+    $('.j-form').each(function() {
+        $(this).validate({
+          submitHandler: function(form) {
+            console.log('Привет, прочитай комменты в коде');
+            // Привет тебе человече :)
+            // с наступающим тебя... Или с наступившим
+            // Чтобы отправка формы заработала
+            // Надо раскоментить эту строку
+            /*
+                form.submit();
+            */
+            // и убери консоль лог плз :)
+
+            $.arcticmodal('close'); // закрываем модал (вдруг открыт)
+            $('#successModal').arcticmodal(); // вызываем модал
+          }
+        }); 
+    });
 });
 
 
@@ -73,7 +108,7 @@ function init () {
             preset: 'twirl#violetIcon'
         })
 
-    // Добавляем все метки на карту.
+    // Добавляе метки на карту.
     myMap.geoObjects
         .add(myPlacemark)
 }

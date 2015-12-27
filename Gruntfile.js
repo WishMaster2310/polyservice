@@ -6,12 +6,12 @@ module.exports = function(grunt) {
 					map: false,
 					processors: [
 						require('autoprefixer')({
-							browsers: ['last 20 versions', 'IE 8', 'IE 9']
+							browsers: ['last 25 versions', 'IE 8', 'IE 9']
 						})
 					]
 			},
 			dist: {
-				src: 'public/css/style.css'
+				src: 'public/stylesheets/style.css'
 			}
 		},
 		sprite: {
@@ -28,6 +28,6 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-postcss');
 	grunt.loadNpmTasks('grunt-spritesmith');
 
-	grunt.registerTask('default', ['sprite', 'postcss']);
+	grunt.registerTask('default', ['postcss']);
 
 };

@@ -1,0 +1,159 @@
+<div style="display: none">
+	<div class="modal policymodal" id="policyModal">
+		<div class="modal__close"></div>
+		<div class="modal__title"><i class="sprite-icon sprite-icon-policy"></i>политика конфиденциальности</div>
+		<img class="policymodal__img" src="../images/policymodal.jpg" alt="">
+		<div class="policymodal__content">
+			<p>Ваша конфиденциальность очень важна для нас. Мы&nbsp;хотим, чтобы Ваша работа в&nbsp;Интернет по&nbsp;возможности была максимально приятной и&nbsp;полезной, и&nbsp;Вы совершенно спокойно использовали широчайший спектр информации, инструментов и&nbsp;возможностей, которые предлагает Интернет.</p> 
+			<p>Личная информация Заказчиков, собранная при регистрации (или в&nbsp;любое другое время) преимущественно используется для оказания услуг в&nbsp;соответствии с&nbsp;Вашими потребностями. Ваша информация не&nbsp;будет передана или продана третьим сторонам. Однако мы&nbsp;можем частично раскрывать личную информацию в&nbsp;особых случаях, описанных в&nbsp;Согласии с&nbsp;рассылкой.</p> 
+			<p>Какие данные собираются на&nbsp;сайте <br>При добровольной регистрации на&nbsp;оказание услуг на&nbsp;нашем сайте, вы&nbsp;отправляете свои Имя, Фамилию, Отчество и&nbsp;E-mail через форму регистрации. </p>
+			<p>С&nbsp;какой целью собираются эти данные <br> Имя используется для обращения лично к&nbsp;вам, а&nbsp;также для</p>
+		</div>
+	</div>
+
+	<div class="modal formmodal" id="recallForm">
+		<div class="modal__close"></div>
+		<div class="modal__title"><i class="sprite-icon sprite-icon-call2"></i>Позвоните мне</div>
+		<div class="formmodal__header">Заполните форму и мы позвоним в удобное для вас время</div>
+		<form class="formmodal__content j-form" method="GET" action="/">
+			<div class="row formmodal__row">
+				<div class="col-md--7 formmodal__group">
+					<label for="userTel" class="formmodal__label">Номер телефона:</label>
+					<input type="tel" class="formmodal__control j-tel" name="userTel" id="userTel" required>
+				</div>
+				<div class="col-md--7 formmodal__group">
+					<label for="calltime" class="formmodal__label">Желаемое время для звонка:</label>
+					<select name="calltime" class="formmodal__control" id="calltime">
+						<option value="1">до 10:00</option>
+						<option value="1">до 13:00</option>
+						<option value="1">до 15:00</option>
+						<option value="1">до 16:00</option>
+						<option value="1">после 19:00</option>
+					</select>
+				</div>
+			</div>
+			<div class="row formmodal__row">
+				<div class="col-md--7 formmodal__group">
+					<label for="recallUserName" class="formmodal__label">Ваше имя:</label>
+					<input type="text" class="formmodal__control" name="userName" id="recallUserName" required>
+				</div>
+				<div class="col-md--7 formmodal__group">
+					<label for="recallUserEmail" class="formmodal__label">Ваш Email:</label>
+					<input type="email" class="formmodal__control" name="userEmail" id="recallUserEmail">
+				</div>
+			</div>
+			<div class="formmodal__row">
+				<label for="recallUserConmment" class="formmodal__label">Комментарий:</label>
+				<textarea name="userConmment" class="formmodal__control formmodal__control--area"  id="recallUserConmment"></textarea>
+			</div>
+			<div class="formmodal__footer">
+				<button type="submit" class="formmodal__btn">Отправить</button>
+			</div>
+		</form>
+	</div>
+	<div class="modal successmodal" id="successModal">
+		<div class="modal__close"></div>
+		<div class="successmodal__content">
+			<i class="sprite-icon sprite-icon-ok"></i>
+			Спасибо за&nbsp;обращение в&nbsp;ближайшее время мы свяжемся с&nbsp;вами
+		</div>
+	</div>
+
+	<div class="modal formmodal formmodal--wide" id="saleForm">
+		<div class="modal__close"></div>
+		<div class="modal__title"><i class="sprite-icon sprite-icon-brif"></i>Бриф на проект</div>
+		<div class="formmodal__header">Заполните форму сейчас и получите скидку</div>
+		<form class="formmodal__content j-form" method="GET" action="/">
+			<div class="row formmodal__row">
+				<div class="col-md--4 formmodal__group">
+					<label for="saleFormUserEmail" class="formmodal__label">Ваш Email:</label>
+					<input type="email" class="formmodal__control" name="userEmail" id="saleFormUserEmail">
+				</div>
+				<div class="col-md--4 formmodal__group">
+					<label for="saleFormUserTel" class="formmodal__label">Номер телефона:</label>
+					<input type="tel" class="formmodal__control j-tel" name="userTel" id="saleFormUserTel" required>
+				</div>
+				<div class="col-md--4 formmodal__group">
+					<label for="saleFormUserName" class="formmodal__label">Ваше имя:</label>
+					<input type="text" class="formmodal__control" name="userName" id="saleFormUserName" required>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md--8">
+					<div class="row">
+						<div class="col-md--7 formmodal__group">
+							<label for="saleFormObjectName" class="formmodal__label">Назвние обьекта:</label>
+							<input type="text" class="formmodal__control" name="userObjectName" id="saleFormObjectName" required >
+							<div class="formmodal__info">Название поселка, дачного кооператива или улицы</div>
+						</div>
+
+						<div class="col-md--7 formmodal__group">
+							<label for="saleFormHeightDiff" class="formmodal__label">Перепад высоты:</label>
+							<input type="text" class="formmodal__control" name="userHeightDiff" id="saleFormHeightDiff">
+							<div class="formmodal__info">Укажите имеется ли перепад высот и&nbsp;его размер</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md--7">
+							<label for="userDistance" class="formmodal__label">Удалленность участков от&nbsp;СПБ</label>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md--7 formmodal__group">
+							<input type="text" class="formmodal__control" name="userDistance" id="userDistance" required >
+							<div class="formmodal__info">Необходимо для расчета транспортных расходов</div>
+						</div>
+						<div class="col-md--7 formmodal__group">
+							<select name="userDistanceSelect" class="formmodal__control" id="userDistanceSelect">
+								<option>Выбрать</option>
+								<option value="1">Ссылка</option>
+								<option value="2">Ссылка</option>
+								<option value="3">Ссылка</option>
+								<option value="4">Ссылка</option>
+								<option value="5">Ссылка</option>
+							</select>
+						</div>
+					</div>
+					<div class="formmodal__group">
+						<label for="saleFormConmment" class="formmodal__label">Комментарий:</label>
+						<textarea name="userConmment" class="formmodal__control formmodal__control--area"  id="saleFormConmment"></textarea>
+					</div>
+					
+				</div>
+				<div class="col-md--6">
+					<div class="formmodal__asidegroup">
+						<label class="formmodal__label">Полив дорожек:</label>
+						<div class="formmodal__radiogroup">
+							<label class="formmodal__box">
+								<input type="radio" checked val="1" name="tracksWatering"><span class="formmodal__box-mark"></span> Да
+							</label>
+
+							<label class="formmodal__box">
+								<input type="radio" val="0" name="tracksWatering"><span class="formmodal__box-mark"></span> Нет
+							</label>
+						</div>
+						<div class="formmodal__info">Отказ от&nbsp;полива дорожек может привести к&nbsp;увиличению стоимости на 30%&nbsp;50%</div>
+					</div>
+
+					<div class="formmodal__asidegroup">
+						<label class="formmodal__label">План участка:</label>
+						<label class="formmodal__file">
+							<input type="file"  name="areaPlan">
+							<span class="formmodal__file-mark">Загрузить файл</span>
+						</label>
+						<div class="formmodal__info">Ваша конфиденциальность очень важна для нас. Мы&nbsp;хотим, чтобы Ваша работа в&nbsp;Интернет по&nbsp;возможности была максимально приятной и&nbsp;полезной,</div>
+					</div>
+				</div>
+			</div>
+			<div class="formmodal__footer">
+				<button type="submit" class="formmodal__btn">Получить скидку на проект</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+
+
+
+
