@@ -1,9 +1,17 @@
-<div class="container">
+<div class="container" id="brands">
 	<div class="section-header">
 		<h1 class="h1 text-center">Используемые бренды</h1>
 	</div>
 </div>
-<section class="">
-	<div class="container"></div>
+<section class="brands-section">
+	<div class="container">
+		<ul class="brands">
+			{% for item in base.brands %}
+				<li class="brands__item">
+					<img class="brands__img" src="{{ item.img }}" alt="">
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
 
 </section>

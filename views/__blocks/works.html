@@ -1,0 +1,26 @@
+
+<section class="works-section">
+	<div class="container">
+		<h1 class="h1 text-center">Примеры работ</h1>
+		<div class="works">
+			{% for item in base.works %}
+				<div class="works__item {{ item.mod }}">
+					<img class="works__img" src="{{ item.img }}" alt="{{ item.name }}">
+					<div class="works__data">
+						<div class="works__centroid">
+							<div class="works__centroid-inner">
+								<div class="works__name">{{ item.name }}</div>
+								<div class="works__text">{{ item.caption }}</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+<div class="works-footer">
+	<div class="text-center">
+		<a href="#" class="btn btn--secondary btn--paddingset-1">Смотреть все работы</a>
+	</div>
+</div>
