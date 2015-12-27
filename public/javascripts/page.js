@@ -11,4 +11,43 @@ $(document).ready(function() {
 	// init wow scroll animations
 	new WOW().init();
 
+    $('.header__burger').on('click', function() {
+        if($('.header-navline').css('display') === 'none') {
+            $('.header-navline').slideDown(300);
+            $(this).addClass('header__burger--active')
+        } else {
+           $('.header-navline').slideUp(300); 
+           $(this).removeClass('header__burger--active')
+        }
+        
+    });
+
+    $(window).on('resize', function() {
+        if($(window).width() > 768) {
+           $('.header-navline').attr('style', '');
+           $('.header__burger').removeClass('header__burger--active');
+        }
+    });
 });
+
+
+var yaMap;
+// Дождёмся загрузки API и готовности DOM.
+ymaps.ready(init);
+
+function init () {
+    var myMap = new ymaps.Map("contacts", {
+            center: [55.8, 37.8],
+            zoom: 14
+        }),
+
+        
+        // Создаем метку с помощью вспомогательного класса.
+        myPlacemark = new ymaps.Placemark([55.8, 37.8], {}, {
+            preset: 'twirl#violetIcon'
+        })
+
+    // Добавляем все метки на карту.
+    myMap.geoObjects
+        .add(myPlacemark)
+}

@@ -15,8 +15,10 @@
     </head>
     <body>
         {% include "__blocks/header.html" %}
-
  		{% block content %}{% endblock %}
+        {% include "__blocks/footer.html" %}
+
+        <script src="https://api-maps.yandex.ru/2.0/?load=package.standard,package.geoObjects&amp;lang=ru-RU" type="text/javascript"></script>
         <script src="javascripts/modernizr-custom.js"></script>
         <script src="javascripts/jquery.mosaicflow.min.js"></script>
         <script src="javascripts/scrollspy.js"></script>
