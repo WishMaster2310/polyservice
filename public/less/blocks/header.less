@@ -19,6 +19,24 @@
 		}
 	}
 
+	&--sticky {
+		position: fixed  !important;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 3;
+
+		.header__col {
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.header-menu__link {
+			padding-top: 14px;
+			padding-bottom: 14px;
+		}
+	}
+
 	&__row {
 		display: table;
 		width: 100%;
@@ -94,6 +112,7 @@
 			width: 1%;
 			font-weight: 300;
 			text-transform: uppercase;
+			transition: all .3s ease-in-out;
 
 			&:hover  {
 				background: darken(#266a8d, 10%);
@@ -104,7 +123,17 @@
 				background-color: darken(#266a8d, 15%);
 			}
 
-			
+			&.active {
+				background-color: #fff;
+			}
+		}
+
+		&__item.active &__link {
+			color: @blue;
+		}
+
+		&__item.active &__link:before {
+			background-color: transparent;
 		}
 
 		&__item:first-child &__link  {

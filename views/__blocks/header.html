@@ -27,8 +27,8 @@
         </div>
     </div>
     <div class="header-navline">
-        <div class="container">
-            <ul class="header-menu" role="navigation">
+        <div class="container"  id="navigation">
+            <ul class="header-menu nav nav-tabs" role="navigation">
                 {% for menu in base.menu %}
                     <li class="header-menu__item">
                         <a href="{{ menu.href }}" class="header-menu__link">{{ menu.caption }}</a>
@@ -38,3 +38,4 @@
         </div>
     </div>
 </header>
+<div class="header__placeholder"></div>
