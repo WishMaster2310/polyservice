@@ -1,3 +1,4 @@
 __design/*
 node_modules/*
 .idea/
+public/index.html
