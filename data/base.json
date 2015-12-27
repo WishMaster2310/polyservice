@@ -156,5 +156,67 @@
 			"caption": "Клиентский спрос, отбрасывая подробности, развивает социометрический пресс-клиппинг.",
 			"mod": ""
 		}
+	],
+	"clients": [
+		{
+			"img": "../images/clients_1.png",
+			"inverse": "../images/clients_1_w.png",
+			"name": "Название компании",
+			"href": "#"
+		},
+		{
+			"img": "../images/clients_2.png",
+			"inverse": "../images/clients_2_w.png",
+			"name": "Название компании",
+			"href": "#"
+		},
+		{
+			"img": "../images/clients_3.png",
+			"inverse": "../images/clients_3_w.png",
+			"name": "Название компании",
+			"href": "#"
+		},
+		{
+			"img": "../images/clients_4.png",
+			"inverse": "../images/clients_4_w.png",
+			"name": "Название компании",
+			"href": "#"
+		},
+		{
+			"img": "../images/clients_2.png",
+			"inverse": "../images/clients_2_w.png",
+			"name": "Название компании",
+			"href": "#"
+		},
+		{
+			"img": "../images/clients_1.png",
+			"inverse": "../images/clients_1_w.png",
+			"name": "Название компании",
+			"href": "#"
+		},
+		{
+			"img": "../images/clients_2.png",
+			"inverse": "../images/clients_2_w.png",
+			"name": "Название компании",
+			"href": "#"
+		},
+		{
+			"img": "../images/clients_3.png",
+			"inverse": "../images/clients_3_w.png",
+			"name": "Название компании",
+			"href": "#"
+		},
+		{
+			"img": "../images/clients_4.png",
+			"inverse": "../images/clients_4_w.png",
+			"name": "Название компании",
+			"href": "#"
+		},
+		{
+			"img": "../images/clients_2.png",
+			"inverse": "../images/clients_2_w.png",
+			"name": "Название компании",
+			"href": "#"
+		}
 	]
 }

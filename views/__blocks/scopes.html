@@ -7,7 +7,7 @@
 	<div class="container">
 		<ul class="scopes">
 			{% for item in base.scopes %}
-				<li class="scopes__item">
+				<li class="scopes__item wow fadeIn" data-wow-delay="{{ 0.25 +  (loop.index*0.2) + 's' }}">
 					<div class="scopes__placeholder">
 						<img src="{{ item.img }}" class="scopes__img" alt="{{ item.name }}" />
 					</div>

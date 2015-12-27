@@ -2,7 +2,7 @@
 	<div class="container">
 		<ul class="services">
 			{% for item in base.services %}
-				<li class="services__item">
+				<li class="services__item  wow fadeInUp"  data-wow-delay="{{ 0.1 +  (loop.index*0.1) + 's' }}">
 					<div class="services__placeholder">
 						<img src="{{ item.img }}" class="services__img" alt="{{ item.title }}" />
 					</div>

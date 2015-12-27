@@ -1,0 +1,18 @@
+<section class="clients-section" id="clients">
+	<div class="container">
+		<h1 class="h1 text-center">Наши клиенты</h1>
+		<ul class="clients">
+			{% for item in base.clients %}
+				<li class="clients__item">
+					<img class="clients__img" src="{{ item.img }}" alt="{{ item.name }}">
+					<div class="clients__popover">
+						<div class="clients__placeholder">
+							<img class="clients__img" src="{{ item.inverse }}" alt="{{ item.name }}">
+						</div>
+						<div class="clients__name">{{ item.name }}</div>
+					</div>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+</section>

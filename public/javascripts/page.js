@@ -8,4 +8,7 @@ $(document).ready(function() {
 	    columnClass: 'works__col'
 	});
 
+	// init wow scroll animations
+	new WOW().init();
+
 });

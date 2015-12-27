@@ -4,7 +4,7 @@
 		<ul class="advantages">
 			{% for item in base.advantages %}
 				<li class="advantages__item">
-					<div class="advantages__placeholder">
+					<div class="advantages__placeholder wow fadeInLeft" data-wow-delay="{{ 0.1 +  (loop.index*0.1) + 's' }}">
 						<img src="{{ item.img }}" class="advantages__img" alt="{{ item.title }}" />
 						<span class="advantages__arrow"></span>
 					</div>

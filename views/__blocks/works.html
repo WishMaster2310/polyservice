@@ -1,10 +1,10 @@
 
-<section class="works-section">
+<section class="works-section" id="works">
 	<div class="container">
 		<h1 class="h1 text-center">Примеры работ</h1>
 		<div class="works">
 			{% for item in base.works %}
-				<div class="works__item {{ item.mod }}">
+				<div class="works__item {{ item.mod }} wow zoomIn">
 					<img class="works__img" src="{{ item.img }}" alt="{{ item.name }}">
 					<div class="works__data">
 						<div class="works__centroid">
