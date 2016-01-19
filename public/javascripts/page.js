@@ -48,7 +48,7 @@ $(document).ready(function() {
     $('.header-menu__link').on('click', function(e) {
         e.preventDefault();
         var target = $(this).attr('href');
-        $('html body').animate({
+        $('html, body').animate({
             scrollTop: $(target).offset().top - 120
         }, 450)
     });
